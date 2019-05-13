@@ -7,10 +7,8 @@ function invokeWordingChange() {
 
     let selection = document.querySelector("#s2id_235-jsn-uf-form-field .select2-choice span").innerHTML;
 
-    console.log("Worked!");
-
-    if (selection == "Bachelors") {
-
+    if (selection == "Bachelors" || selection == "Masters") {
+        console.log("Worked!");
         // Search through all HTML nodes
         let all = document.getElementsByTagName("*");
 
