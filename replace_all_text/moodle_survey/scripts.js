@@ -6,8 +6,8 @@ document.getElementById("235-jsn-uf-form-field").onchange = function() {
 function invokeWordingChange() {
     let selection = document.querySelector("#s2id_235-jsn-uf-form-field .select2-choice span").innerHTML;
 
-    webinarToTutorial()
-    tutorialToWebinar()
+    webinarToTutorial();
+    tutorialToWebinar();
 
     function webinarToTutorial() {
 
