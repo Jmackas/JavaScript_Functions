@@ -25,6 +25,16 @@ function invokeWordingChange() {
                 // output the replaced results to all nodes
                 webinars[i].innerHTML = res;
             }
+
+             // Loop through the results
+            for (let i = 1; i < webinars.length; i++) {
+                // Add the node to an array
+                var str = webinars[i].innerHTML;
+                // replace text
+                var res = str.replace("presenter", "lecturer");
+                // output the replaced results to all nodes
+                webinars[i].innerHTML = res;
+            }
         }
     }
 
@@ -44,7 +54,16 @@ function invokeWordingChange() {
                 // output the replaced results to all nodes
                 tutorials[i].innerHTML = res;
             }
+
+             // Loop through the results
+            for (let i = 1; i < tutorials.length; i++) {
+                // Add the node to an array
+                var str = tutorials[i].innerHTML;
+                // replace text
+                var res = str.replace("lecturer", "presenter");
+                // output the replaced results to all nodes
+                tutorials[i].innerHTML = res;
+            }
         }
     }
-
 }
