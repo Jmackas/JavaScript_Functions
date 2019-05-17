@@ -30,7 +30,7 @@ function invokeWordingChange() {
 
     function tutorialToWebinar() {
 
-        if (selection == "Graduate Certificate" || selection == "Advanced Diploma" || selection == "Diploma") {
+        if (selection == "Graduate Certificate" || selection == "Advanced Diploma" || selection == "Diploma" || selection == "Professional Certificate") {
             console.log("Worked!");
             // Search through all HTML nodes
             let tutorials = document.querySelectorAll(".controls p, .control-label");
