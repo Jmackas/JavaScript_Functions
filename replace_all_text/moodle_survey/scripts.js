@@ -41,7 +41,7 @@ function invokeWordingChange() {
                 // Add the node to an array
                 var str = webinars[i].innerHTML;
                 // replace text
-                var res = str.replace("unit", "module");
+                var res = str.replace("module", "unit");
                 // output the replaced results to all nodes
                 webinars[i].innerHTML = res;
             }
@@ -81,7 +81,7 @@ function invokeWordingChange() {
                 // Add the node to an array
                 var str = tutorials[i].innerHTML;
                 // replace text
-                var res = str.replace("module", "unit");
+                var res = str.replace("unit", "module");
                 // output the replaced results to all nodes
                 tutorials[i].innerHTML = res;
             }
